@@ -11,15 +11,19 @@ body
 font-family: 'Raleway', sans-serif;
 }
 
+/*nav*/
 ul
 {
 	list-style-type: none;
+}
+
+#menu
+{
 	display: flex;
 	justify-content: space-between;
-	margin-left: 1050px;
-	margin-right: 50px;
-	margin-top: -20px;
-	
+	margin-top: -53px;
+	margin-right: 75px;
+	margin-left: 980px;
 }
 
 a
@@ -28,7 +32,14 @@ a
 	color: black;
 }
 
-a:hover
+
+.HAI
+{
+	text-decoration: none;
+	color: black;
+}
+
+.HAI:hover
 {
 	color: blue;
 }
@@ -38,9 +49,15 @@ li
 	font-size: 20px;
 }
 
-/*deader*/
-
+#inscription
+{
+	color: blue;
+}
 /*nav*/
+
+/*header*/
+
+/*section*/
 p
 {
 	font-size: 20px;
@@ -54,7 +71,7 @@ strong
 input[type=search] {
     border: 1px dotted #999;
     border-radius: 0;
-    height: 30px;
+    height: 50px;
 
     -webkit-appearance: none;
 }
@@ -62,7 +79,6 @@ input[type=search] {
 #recherche
 {
 	display: flex;
-	border: 2px  black;
 }
 
 button
@@ -70,30 +86,130 @@ button
 	background-color: #0065FC;
 	border-top-right-radius: 10px;
 	border-bottom-right-radius: 10px;
-	height: 30px;
+	height: 50px;
+	width: 135px;
+	font-size: 20px;
 }
 
 #point
 {
-	height: 30px;
-	width: 30px;
+	display: flex;
+	height: 50px;
+	width: 52px;
 	background-color: #F2F2F2;
 	border-top-left-radius: 10px;
 	border-bottom-left-radius: 10px;
 	justify-content: center;
+	align-items: center;
 }
-
-#poin
+	
+input
 {
-	position: relative;
-	left: 10px;
-	bottom: -4px;
+	width: 233px;
+	height: 40px;
 }
 
     /*filtres*/
-#filtres
+#choix
 {
 	display: flex;
 	justify-content: space-between;
-	padding-top: 20px;
+	height: 50px;
+	margin-top: 32px;
+	margin-right: 448px;
 }
+
+#Economique
+{
+	display: flex;
+	width: 195px;
+	border: 2px solid #F2F2F2;
+	border-radius: 30px;
+	align-items: center;
+	justify-content: space-around;
+
+}
+
+#Familliale
+{
+	display: flex;
+	width: 152px;
+	border: 2px solid #F2F2F2;
+	border-radius: 30px;
+	align-items: center;
+	justify-content: space-around;
+}
+
+#Romantique
+{
+	display: flex;
+	width: 182px;
+	border: 2px solid #F2F2F2;
+	border-radius: 30px;
+	align-items: center;
+	justify-content: space-around;
+}
+
+#Animaux
+{
+	display: flex;
+	width: 242px;
+	border: 2px solid #F2F2F2;
+	border-radius: 30px;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.icone
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #DEEBFF;
+	height: 46px;
+	width: 50px;
+	border: 2px solid #DEEBFF;
+	border-radius: 30px;
+}
+
+.texte
+{
+	display: flex;
+	flex: 1;
+	justify-content: center;
+}
+
+.t2:hover
+{
+	color: red;
+}
+
+#categorie
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.fa-child
+{
+	color: #0065FC;
+}
+
+.fa-map
+{
+	color: #0065FC;
+}
+
+.fa-heart
+{
+	color: #0065FC;
+}
+
+.fa-dog
+{
+	color: #0065FC;
+}
+/*filtres*/
+/*section*/
+

@@ -12,39 +12,62 @@
     	<header>
     		<div id="top">
     			<img src="images/logo/logo.png" alt="logo reservia" title="reservia" id="logo"> <! logo reservia>
-
+		<nav>
     			<ul id="menu">
-    				<li><a href="#" target="_blank">Hébergements</a></li>
-    				<li><a href="#" target="_blank">Activités</a></li>
-    				<li><a href="#" target="_blank">S'inscire</a></li>
+    				<li><a href="#" target="_blank"><p class="HAI">Hébergements</p></a></li>
+    				<li><a href="#" target="_blank"><p class="HAI">Activités</p></a></li>
+    				<li><a href="#" target="_blank"><p id="inscription">S'inscire</p></a></li>
     			</ul>
-
+		</nav>
     		</div>
     	</header>
 
-    	<nav>
+    	<section>
     		<p><strong>Trouvez votre hébergement pour des vacances de rêve</strong>
     			<br>En plein centre ville ou en pleine nature</p>
 
     		<div id="recherche">
-    			<div id="point"><i class="fas fa-map-marker-alt"></i></div>
-    			<div id="search"><label for="site-search"></label>
+    			<div id="point">
+    				<i class="fas fa-map-marker-alt"></i>
+    			</div>
+    			<div id="search">
+    				<label for="site-search"></label>
+    				
 					<input type="search" id="site-search" name="q"
-       				aria-label="Search through site content"></div>
+       				aria-label="Search through site content">
+       			</div>
 
-				<div id="button"><button>Rechercher</button></div>
+				 <button id="button">Rechercher</button>
 			</div>
+			
 
-			<div id="filtres">
-				<div id="categorie">Filtres</div>
-				<div id="economique"><i class="fas fa-map"></i>Economique</div>
-				<div id="famille">Familliale</div>
-				<div id="romantique">Romantique</div>
-				<div id="annimaux">Animaux Autorisés</div>
+			<div id="choix">
+				<div id="categorie">
+					<p>Filtres</p>
+				</div>
 
+				<div id="Economique">
+					<div class="icone"><i class="fas fa-map"></i></div>
+					<div class="texte"><a href="#" target="_blank"><p class="t2">Economique</p></a></div>
+				</div>
+				
+				<div id="Familliale">
+					<div class="icone"><i class="fas fa-child"></i></div>
+					<div class="texte"><a href="#" target="_blank"><p class="t2">Familliale</p></a></div>
+				</div>
+
+				<div id="Romantique">
+					<div class="icone"><i class="fas fa-heart"></i></div>
+					<div class="texte"><a href="#" target="_blank"><p class="t2">Romantique</p></a></div>
+				</div>
+
+				<div id="Animaux">
+					<div class="icone"><i class="fas fa-dog"></i></div>
+					<div class="texte"><a href="#" target="_blank"><p class="t2">Animaux Autorisés</p></a></div>
+				</div>
 
 			</div>
-    	</nav>
+    	</section>
 
     
     </body>
