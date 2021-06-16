@@ -1,14 +1,16 @@
 
 /*Header*/
+body
+{
+	margin-left: 50px;
+	margin-right: 50px;
+	font-family: 'Raleway', sans-serif;
+}
+
 #logo
 {
 	width: 97px;
 	height: 45px;
-}
-
-body
-{
-font-family: 'Raleway', sans-serif;
 }
 
 /*nav*/
@@ -20,10 +22,8 @@ ul
 #menu
 {
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-end;
 	margin-top: -53px;
-	margin-right: 75px;
-	margin-left: 980px;
 }
 
 a
@@ -37,6 +37,7 @@ a
 {
 	text-decoration: none;
 	color: black;
+	margin-left: 70px;
 }
 
 .HAI:hover
@@ -52,6 +53,7 @@ li
 #inscription
 {
 	color: blue;
+	margin-left: 70px;
 }
 /*nav*/
 
@@ -63,7 +65,7 @@ p
 	font-size: 20px;
 }
 
-strong
+.presentation
 {
 	font-size: 24px;
 }
@@ -113,10 +115,9 @@ input
 #choix
 {
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-start;
 	height: 50px;
 	margin-top: 32px;
-	margin-right: 448px;
 }
 
 #Economique
@@ -127,6 +128,7 @@ input
 	border-radius: 30px;
 	align-items: center;
 	justify-content: space-around;
+	margin-right: 24px;
 
 }
 
@@ -138,6 +140,7 @@ input
 	border-radius: 30px;
 	align-items: center;
 	justify-content: space-around;
+	margin-right: 24px;
 }
 
 #Romantique
@@ -148,6 +151,7 @@ input
 	border-radius: 30px;
 	align-items: center;
 	justify-content: space-around;
+	margin-right: 24px;
 }
 
 #Animaux
@@ -158,6 +162,7 @@ input
 	border-radius: 30px;
 	align-items: center;
 	justify-content: space-around;
+	margin-right: 24px;
 }
 
 .icone
@@ -189,6 +194,7 @@ input
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin-right: 33px;
 }
 
 .fa-child
@@ -211,5 +217,108 @@ input
 	color: #0065FC;
 }
 /*filtres*/
-/*section*/
 
+#info
+{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.i
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 30px;
+	height: 30px;
+	border: 1px solid #DEEBFF;
+	border-radius: 50px;
+	margin-right: 15px;
+}
+
+/*section 1*/
+
+/*section 2*/
+
+.imageG1  /*partie1*/
+{
+	height: 110px;
+	width: 235px;
+}
+
+.prix
+{
+	font-size: 17px;
+	margin-left: 20px;
+}
+
+#hebergement
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+.imagesmarseille
+{
+	display: flex;
+	justify-content: space-between;
+	background-color: #F2F2F2;
+}
+
+
+#marseille
+{
+	padding-right: 40px;
+	padding-left: 40px;
+	background-color: #F2F2F2;
+	border-radius: 20px;
+	width: 800px;
+}
+
+.image
+{
+	background-color: white;
+	margin-bottom: 28px;
+	border: 5px solid white;
+	border-radius: 10px;
+}
+
+.imageG1 /*fin partie 1*/
+{
+	border-radius: 10px;
+}
+
+
+.imageG2 /*début partie 2*/
+{
+	height: 135px;
+	width: 130px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+#classement
+{
+	padding-right: 40px;
+	padding-left: 40px;
+	background-color: #F2F2F2;
+	border-radius: 20px;
+	width: 340px;
+}
+
+.classementexte
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.images2
+{
+	display: flex;
+	margin-bottom: 30px;
+	background-color: white;
+	border: 5px solid white;
+	border-radius: 20px;
+}
