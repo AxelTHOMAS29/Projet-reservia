@@ -284,9 +284,11 @@ input
 	border-radius: 10px;
 }
 
+
 .imageG1 /*fin partie 1*/
 {
-	border-radius: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 }
 
 
@@ -321,4 +323,110 @@ input
 	background-color: white;
 	border: 5px solid white;
 	border-radius: 20px;
+}
+
+/*star color*/
+.blue
+{
+	color: #0065FC;
+}
+
+.grey
+{
+	color: #F2F2F2;
+}
+
+.etoile
+{
+	display: flex;
+	justify-content: flex-start;
+	padding-left: 15px;
+}
+
+.fa-star
+{
+	font-size: 0.7em;
+} /*star color fin*/
+
+/*section 3 début*/
+
+.imageG3
+{
+	height: 388px;
+	width: 300px;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+}
+
+.imageG4
+{
+	height: 180px;
+	width: 300px;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+}
+
+.imageG5
+{
+	height: 105px;
+	width: 300px;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+}
+
+#activites
+{
+	margin-top: 40px;
+}
+
+#actimage
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+.images3
+{
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	box-shadow: 4px 4px 4px #F2F2F2;
+	border-radius: 20px;
+}
+
+.blocimg
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+/*section 3 fin*/
+
+/*début footer*/
+
+#foot
+{
+	margin-left: -50px;
+	margin-right: -50px;
+	margin-top: 60px;
+	background-color: #F2F2F2;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.assitance
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.assistancebl
+{
+	margin-left: 50px;
+	margin-right: 375px;
+	display: flex;
+	justify-content: space-between;
+	width: 1000px;
 }
