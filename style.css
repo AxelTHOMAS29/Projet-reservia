@@ -26,6 +26,11 @@ ul
 	margin-top: -53px;
 }
 
+.menu12
+{
+	display: flex;
+}
+
 a
 {
 	text-decoration: none;
@@ -38,11 +43,13 @@ a
 	text-decoration: none;
 	color: black;
 	margin-left: 70px;
+
 }
 
 .HAI:hover
 {
 	color: blue;
+	border-top: 2px solid blue;
 }
 
 li
@@ -429,4 +436,45 @@ input
 	display: flex;
 	justify-content: space-between;
 	width: 1000px;
+}
+
+/*fin du footer*/
+
+@media all and (max-device-width: 480px) /*version mobile*/
+{
+
+	body
+	{
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	#logo
+	{
+		width: 95px;
+		height: 30px;
+	}
+
+	#top
+	{
+		display: flex;
+		flex-direction: column;
+		position: relative;
+	}
+
+	.menu12
+	{
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.menu13
+	{
+		position: absolute;
+		top: 0px;
+		right: 0px;
+	}
+
+
+
 }
