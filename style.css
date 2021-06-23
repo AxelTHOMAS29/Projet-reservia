@@ -11,12 +11,14 @@ body
 {
 	width: 97px;
 	height: 45px;
+	object-fit: cover;
 }
 
 /*nav*/
 ul
 {
 	list-style-type: none;
+	margin-top: 0px;
 }
 
 #menu
@@ -77,8 +79,15 @@ p
 	font-size: 24px;
 }
 
-input[type=search] {
-    border: 1px dotted #999;
+.presentation22
+{
+	margin-top: -20px;
+	font-size: 20px;
+}
+
+input[type=search] 
+{
+    border: 1px solid #F2F2F2;
     border-radius: 0;
     height: 50px;
 
@@ -93,11 +102,24 @@ input[type=search] {
 button
 {
 	background-color: #0065FC;
+	border: none;
 	border-top-right-radius: 10px;
 	border-bottom-right-radius: 10px;
 	height: 50px;
 	width: 135px;
 	font-size: 20px;
+}
+
+.B22
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.B2
+{
+	display: none;
 }
 
 #point
@@ -123,7 +145,7 @@ input
 {
 	display: flex;
 	justify-content: flex-start;
-	height: 50px;
+	flex-wrap: wrap;
 	margin-top: 32px;
 }
 
@@ -131,6 +153,7 @@ input
 {
 	display: flex;
 	width: 195px;
+	height: 48px;
 	border: 2px solid #F2F2F2;
 	border-radius: 30px;
 	align-items: center;
@@ -143,6 +166,7 @@ input
 {
 	display: flex;
 	width: 152px;
+	height: 48px;
 	border: 2px solid #F2F2F2;
 	border-radius: 30px;
 	align-items: center;
@@ -154,6 +178,7 @@ input
 {
 	display: flex;
 	width: 182px;
+	height: 48px;
 	border: 2px solid #F2F2F2;
 	border-radius: 30px;
 	align-items: center;
@@ -165,6 +190,7 @@ input
 {
 	display: flex;
 	width: 242px;
+	height: 48px;
 	border: 2px solid #F2F2F2;
 	border-radius: 30px;
 	align-items: center;
@@ -199,6 +225,16 @@ input
 #categorie
 {
 	display: flex;
+
+	justify-content: center;
+	align-items: center;
+	margin-right: 33px;
+}
+
+#categorie2
+{
+	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 	margin-right: 33px;
@@ -222,6 +258,11 @@ input
 .fa-dog
 {
 	color: #0065FC;
+}
+
+.fa-search
+{
+	color: white;
 }
 /*filtres*/
 
@@ -252,9 +293,16 @@ input
 {
 	height: 110px;
 	width: 235px;
+	object-fit: cover;
 }
 
 .prix
+{
+	font-size: 17px;
+	margin-left: 12px;
+}
+
+.prix2
 {
 	font-size: 17px;
 	margin-left: 20px;
@@ -263,12 +311,15 @@ input
 #hebergement
 {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
+	margin-top: 20px;
 }
 
 .imagesmarseille
 {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	background-color: #F2F2F2;
 }
@@ -276,6 +327,7 @@ input
 
 #marseille
 {
+	flex-wrap: wrap;
 	padding-right: 40px;
 	padding-left: 40px;
 	background-color: #F2F2F2;
@@ -296,6 +348,7 @@ input
 {
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
+	object-fit: cover;
 }
 
 
@@ -305,10 +358,15 @@ input
 	width: 130px;
 	border-top-left-radius: 20px;
 	border-bottom-left-radius: 20px;
+	object-fit: cover;
 }
 
 #classement
 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	flex-wrap: wrap;
 	padding-right: 40px;
 	padding-left: 40px;
 	background-color: #F2F2F2;
@@ -363,6 +421,7 @@ input
 	width: 300px;
 	border-top-right-radius: 20px;
 	border-top-left-radius: 20px;
+	object-fit: cover;
 }
 
 .imageG4
@@ -371,6 +430,7 @@ input
 	width: 300px;
 	border-top-right-radius: 20px;
 	border-top-left-radius: 20px;
+	object-fit: cover;
 }
 
 .imageG5
@@ -379,6 +439,25 @@ input
 	width: 300px;
 	border-top-right-radius: 20px;
 	border-top-left-radius: 20px;
+	object-fit: cover;
+}
+
+.imageG6
+{
+	height: 140px;
+	width: 300px;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+	object-fit: cover;
+}
+
+.imageG7
+{
+	height: 150px;
+	width: 300px;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+	object-fit: cover;
 }
 
 #activites
@@ -390,6 +469,7 @@ input
 {
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 .images3
@@ -418,6 +498,7 @@ input
 	margin-top: 60px;
 	background-color: #F2F2F2;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: flex-start;
 }
 
@@ -434,19 +515,20 @@ input
 	margin-left: 50px;
 	margin-right: 375px;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	width: 1000px;
 }
 
 /*fin du footer*/
 
-@media all and (max-device-width: 480px) /*version mobile*/
+@media all and (max-width: 450px) /*version mobile*/
 {
 
 	body
 	{
-		margin-left: 0px;
-		margin-right: 0px;
+		margin-left: 19px;
+		margin-right: 19px;
 	}
 
 	#logo
@@ -458,23 +540,185 @@ input
 	#top
 	{
 		display: flex;
+		flex-wrap: wrap;
 		flex-direction: column;
 		position: relative;
 	}
 
+	/*nav*/
+	#menu
+	{
+		margin-top: 0px;
+		justify-content: space-around;
+		padding-left: 0px;
+		padding-right: 0px;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+
 	.menu12
 	{
-		display: flex;
 		justify-content: space-around;
 	}
 
 	.menu13
 	{
 		position: absolute;
-		top: 0px;
+		top: -10px;
 		right: 0px;
 	}
 
+	.HAI
+	{
+		margin-left: 19px;
+		margin-right: 44px;
+		font-size: 22px;
+		border-bottom: 2px grey solid;
+		border-spacing: large;
+	}
+
+	.HAI:hover
+	{
+		border-color: blue;
+	}
+
+	.presentation22
+	{
+		font-size: 13px;
+	}
+
+	/*nav*/
+
+	/*recherche*/
+
+	button
+	{
+		height: 50px;
+		width: 50px;
+	}
+
+	#recherche
+	{
+		width: 
+	}
+
+	.B2
+	{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.B1
+	{
+		display: none;
+	}
+
+	/*filtres*/
+	#choix
+	{
+		justify-content: flex-start;
+		align-items: flex-start;
+		margin-top: 5px;
+	}
+
+	#categorie2
+	{
+		margin-right: 0px;
+		margin-left: 0px;
+		justify-content: flex-start;
+	}
+
+	#Economique
+	{
+		width: 170px;
+		margin-bottom: 12px;
+		margin-right: 11px;
+	}
+
+	#Familliale
+	{
+		width: 137px;
+		margin-bottom: 12px;
+		margin-right: 11px;
+	}
+
+	#Romantique
+	{
+		width: 170px;
+		margin-bottom: 12px;
+		margin-right: 11px;
+	}
+
+	#Animaux
+	{
+		width: 220px;
+		margin-right: 11px;
+	}
+
+	.t2
+	{
+		font-size: 16px;
+		font-weight: bold;
+	}
+	 /*filtres fin*/
+
+	/*section 2*/
+
+	.imageG1
+	{
+		width: 325px;
+		height: 115px;
+	}
+
+	.image
+	{
+		box-shadow: 6px 6px 6px #F2F2F2;
+	}
+
+	#marseille
+	{
+		order: 2;
+		background-color: white;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	#classement
+	{
+		margin-left: -19px;
+		margin-right: -19px;
+		padding-left: 19px;
+		padding-right: 19px;
+		border-radius: 0px;
+		margin-bottom: 28px;
+		width: auto;
+	}
+
+	.imagesmarseille
+	{
+		background-color: white;
+	}
+
+	/*section*/
+
+	.imageG3, .imageG4, .imageG5, .imageG6, .imageG7
+	{
+		width: 335px;
+		height: 135px;
+	}
+
+	.images3
+	{
+		margin-bottom: 24px;
+	}
 
 
+	#foot
+	{
+		margin-left: -19px;
+		margin-right: -19px;
+	}
 }
+
