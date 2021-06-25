@@ -17,12 +17,9 @@
     				<img src="images/logo/logo.png" alt="logo reservia" title="reservia" id="logo"> <!-- logo reservia-->
 			<nav>
     				<ul id="menu">
-    					<div class="menu12">
-    						<li><a href="#hebergement"><p class="HAI">Hébergements</p></a></li>
-    						<li><a href="#activites"><p class="HAI">Activités</p></a></li>
-    					</div>
-    					<div class="menu13">
-    						<li><a href="#" target="_blank"><p id="inscription">S'inscire</p></a></li>
+    						<li class="menu12"><a href="#hebergement" class="HAI">Hébergements</a></li>
+    						<li class="menu12"><a href="#activites" class="HAI">Activités</a></li>
+    						<li class="menu13"><a href="#" target="_blank"><p id="inscription">S'inscire</p></a></li>
     					</div>
     				</ul>
 			</nav>
@@ -44,10 +41,11 @@
        				aria-label="Search through site content">
        			</div>
 
-				 <button id="button">
+				 <button type="submit" id="button">
                     <div class="button22">
-                        <div class="B1">Rechecher</div>
+                        <div class="B1">Rechercher</div>
                         <div class="B2"><i class="fas fa-search"></i></div>
+                    </div>
                  </button>
 			</div>
 			
@@ -58,7 +56,7 @@
 				</div>
                 <div id="categorie2">
 				    <div id="Economique">
-					   <div class="icone"><i class="fas fa-map"></i></div>
+					   <div class="icone"><i class="fas fa-money-bill-wave"></i></div>
 					   <div class="texte"><a href="#" target="_blank"><p class="t2">Economique</p></a></div>
 				    </div>
 				
@@ -90,7 +88,7 @@
 
     			<div id="marseille"><!--partie 1-->
     				<div class="hebergementexte">
-                        <p>Hébergements à Marseille</p>
+                        <p class="classementexte">Hébergements à Marseille</p>
                     </div>
     				<div class="imagesmarseille">
     					<div class="image"><a href="#" target="_blank">
@@ -166,18 +164,18 @@
     				</div>
 
     				<div class="hebergementexte">
-    					<p><a href="#" target="_blank">Afficher plus</a></p>
+    					<a href="#" target="_blank" class="afficherPlus">Afficher plus</a>
     					
     				</div>
     			</div>
 
-    			<div id="classement"><!--partie 2-->
+    			<section id="classement"><!--partie 2-->
     				<div class="classementexte"><p>Les plus populaires</p>
     					<div class="graph"><i class="fas fa-chart-line"></i></div>
     				</div>
     				<div><a href="#" target="_blank" class="images2">
-    					<img src="images/hebergements/2_large/7.jpg" class="imageG2">
-    					<div><p class="prix2"><strong>Hôtel le soleil du matin</strong><br>Nuit à partir de 128<strong>€</strong></p>
+    					<img src="images/hebergements/2_large/7.jpg" alt="soleil du matin" class="imageG2">
+    					<div class="textEtoile"><p class="prix2"><strong>Hôtel le soleil du matin</strong><br>Nuit à partir de 128<strong>€</strong></p>
     						<ul class="etoile">
     							<li class="blue"><i class="fas fa-star"></i></li>
     							<li class="blue"><i class="fas fa-star"></i></li>
@@ -187,8 +185,8 @@
     						</ul></div></a>
     				</div>
     				<div><a href="#" target="_blank" class="images2">
-    					<img src="images/hebergements/2_large/8.jpg" class="imageG2">
-    					<div><p class="prix2"><strong>Au coeur de l'eau Chambres d'hôtes</strong><br>Nuit à partir de 71<strong>€</strong></p>
+    					<img src="images/hebergements/2_large/8.jpg" alt="chambre d'hôte" class="imageG2">
+    					<div class="textEtoile"><p class="prix2"><strong>Au coeur de l'eau Chambres d'hôtes</strong><br>Nuit à partir de 71<strong>€</strong></p>
     						<ul class="etoile">
     							<li class="blue"><i class="fas fa-star"></i></li>
     							<li class="blue"><i class="fas fa-star"></i></li>
@@ -198,8 +196,8 @@
     						</ul></div></a>
     				</div>
     				<div><a href="#" target="_blank" class="images2">
-    					<img src="images/hebergements/2_large/9.jpg" class="imageG2">
-    					<div><p class="prix2"><strong>Hôtels Tout bleu et Blanc</strong><br>Nuit à partir de 68<strong>€</strong></p>
+    					<img src="images/hebergements/2_large/9.jpg" alt="tout bleu et blanc" class="imageG2">
+    					<div class="textEtoile"><p class="prix2"><strong>Hôtels Tout bleu et Blanc</strong><br>Nuit à partir de 68<strong>€</strong></p>
     					<ul class="etoile">
     							<li class="blue"><i class="fas fa-star"></i></li>
     							<li class="blue"><i class="fas fa-star"></i></li>
@@ -209,7 +207,7 @@
     						</ul></div></a>
     				</div>
     				
-    			</div>
+    			</section>
     			
     		</div>
 
@@ -224,26 +222,26 @@
 
     			<div id="actimage">
     				<div><a href="#" target="_blank" class="images3">
-    					<img src="images/activites/2_large/1.jpg" class="imageG3">
+    					<img src="images/activites/2_large/1.jpg" alt="vieux port" class="imageG3">
     					<p class="prix"><strong>Vieux Port</strong></p></a>
     				</div>
 					<div class="blocimg">
 						<div><a href="#" target="_blank" class="images3">
-    						<img src="images/activites/2_large/2.jpg" class="imageG4">
+    						<img src="images/activites/2_large/2.jpg" alt="Pomègues" class="imageG4">
     						<p class="prix"><strong>Fort de Pomègues</strong></p></a>
     					</div>
     					<div><a href="#" target="_blank" class="images3">
-    						<img src="images/activites/2_large/3.jpg" class="imageG5">
+    						<img src="images/activites/2_large/3.jpg" alt="île du Frioul" class="imageG5">
     						<p class="prix"><strong>Iles du Frioul</strong></p></a>
     					</div>
     				</div>
     				<div><a href="#" target="_blank" class="images3">
-    					<img src="images/activites/2_large/4.jpg" class="imageG3">
+    					<img src="images/activites/2_large/4.jpg" alt="parc Calanques" class="imageG3">
     					<p class="prix"><strong>Parc national des Calanques</strong></p></a>
     				</div>
     				<div class="blocimg">
 						<div><a href="#" target="_blank" class="images3">
-    						<img src="images/activites/2_large/5.jpg" class="imageG6">
+    						<img src="images/activites/2_large/5.jpg" alt="Notre-Dame-de-la-Garde" class="imageG6">
     						<p class="prix"><strong>Notre-Dame-de-la-Garde</strong></p></a>
     					</div>
     					<div><a href="#" target="_blank" class="images3">
@@ -255,8 +253,7 @@
     		</div>
 		</section>
 
-		<footer>
-			<div id="foot">
+		<footer id="foot">		
 				<div class="assistancebl">
 					<div class="assistance">
 						<p><strong>A propos</strong></p>
@@ -275,7 +272,6 @@
 						<p class="t5"><a href="#" target="_blank">Nous contacter</a></p>
 					</div>
 				</div>
-			</div>
 
 
 		</footer>

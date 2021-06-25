@@ -26,6 +26,7 @@ ul
 	display: flex;
 	justify-content: flex-end;
 	margin-top: -53px;
+	align-items: flex-start;
 }
 
 .menu12
@@ -45,13 +46,14 @@ a
 	text-decoration: none;
 	color: black;
 	margin-left: 70px;
+	padding-top: 20px;
 
 }
 
 .HAI:hover
 {
-	color: blue;
-	border-top: 2px solid blue;
+	color: #0065FC;
+	border-top: 2px solid #0065FC;
 }
 
 li
@@ -61,8 +63,10 @@ li
 
 #inscription
 {
-	color: blue;
+	color: #0065FC;
+	padding-top: 0px;
 	margin-left: 70px;
+	font-weight: bold;
 }
 /*nav*/
 
@@ -110,7 +114,7 @@ button
 	font-size: 20px;
 }
 
-.B22
+.button22
 {
 	display: flex;
 	justify-content: center;
@@ -122,6 +126,10 @@ button
 	display: none;
 }
 
+.B1
+{
+	color: white;
+}
 #point
 {
 	display: flex;
@@ -245,7 +253,7 @@ input
 	color: #0065FC;
 }
 
-.fa-map
+.fa-money-bill-wave
 {
 	color: #0065FC;
 }
@@ -271,6 +279,11 @@ input
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
+}
+
+.fa-info
+{
+	color: #0065FC;
 }
 
 .i
@@ -304,8 +317,13 @@ input
 
 .prix2
 {
-	font-size: 17px;
+	font-size: 18px;
 	margin-left: 20px;
+}
+
+.afficherPlus
+{
+	font-size: 20px;
 }
 
 #hebergement
@@ -315,6 +333,7 @@ input
 	justify-content: space-between;
 	margin-top: 20px;
 }
+
 
 .imagesmarseille
 {
@@ -379,6 +398,7 @@ input
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	font-weight: bold;
 }
 
 .images2
@@ -401,11 +421,18 @@ input
 	color: #F2F2F2;
 }
 
+.textEtoile
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
 .etoile
 {
 	display: flex;
-	justify-content: flex-start;
 	padding-left: 15px;
+	margin-bottom: 7px;
 }
 
 .fa-star
@@ -522,7 +549,7 @@ input
 
 /*fin du footer*/
 
-@media all and (max-width: 450px) /*version mobile*/
+@media all and (max-width: 480px) /*version mobile*/
 {
 
 	body
@@ -549,17 +576,21 @@ input
 	#menu
 	{
 		margin-top: 0px;
-		justify-content: space-around;
+		justify-content: flex-end;
+		align-items: center;
 		padding-left: 0px;
 		padding-right: 0px;
-		margin-left: 0px;
-		margin-right: 0px;
+		margin-top: -25px;
+		margin-left: -19px;
+		margin-right: -19px;
 	}
 
 
 	.menu12
 	{
 		justify-content: space-around;
+		width: 90%;
+		margin-top: 40px;
 	}
 
 	.menu13
@@ -571,16 +602,20 @@ input
 
 	.HAI
 	{
-		margin-left: 19px;
-		margin-right: 44px;
-		font-size: 22px;
-		border-bottom: 2px grey solid;
-		border-spacing: large;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-left: 0px;
+		padding-bottom: 10px;
+		font-size: 20px;
+		border-bottom: 2px #F2F2F2 solid;
+		width: 100%;
 	}
 
 	.HAI:hover
 	{
-		border-color: blue;
+		border-color: #0065FC;
+		border-top: none;
 	}
 
 	.presentation22
@@ -598,9 +633,9 @@ input
 		width: 50px;
 	}
 
-	#recherche
+	#search
 	{
-		width: 
+		min-width: 200px;
 	}
 
 	.B2
@@ -657,24 +692,40 @@ input
 		margin-right: 11px;
 	}
 
+	#textEtoile
+	{
+		width: 100%;
+	}
+
+	.prix2
+	{
+		font-size: 90%;
+	}
 	.t2
 	{
 		font-size: 16px;
 		font-weight: bold;
 	}
+
+	.t3
+	{
+		font-size: 14px;
+	}
+
 	 /*filtres fin*/
 
 	/*section 2*/
 
 	.imageG1
 	{
-		width: 325px;
+		width: 100%;
 		height: 115px;
 	}
 
 	.image
 	{
 		box-shadow: 6px 6px 6px #F2F2F2;
+		width: 100%;
 	}
 
 	#marseille
@@ -693,7 +744,7 @@ input
 		padding-right: 19px;
 		border-radius: 0px;
 		margin-bottom: 28px;
-		width: auto;
+		width: 100%;
 	}
 
 	.imagesmarseille
@@ -705,13 +756,15 @@ input
 
 	.imageG3, .imageG4, .imageG5, .imageG6, .imageG7
 	{
-		width: 335px;
+		width: 100%;
 		height: 135px;
+		min-width: 250px;
 	}
 
 	.images3
 	{
 		margin-bottom: 24px;
+		width: 100%;
 	}
 
 
@@ -719,6 +772,7 @@ input
 	{
 		margin-left: -19px;
 		margin-right: -19px;
+		margin-top: 30px;
 	}
 }
 
