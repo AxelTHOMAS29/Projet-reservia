@@ -94,8 +94,6 @@ input[type=search]
     border: 1px solid #F2F2F2;
     border-radius: 0;
     height: 50px;
-
-    -webkit-appearance: none;
 }
 
 #recherche
@@ -174,6 +172,11 @@ input
 
 }
 
+#Economique:hover, #Familliale:hover, #Romantique:hover, #Animaux:hover
+{
+	color: red;
+}
+
 #Familliale
 {
 	display: flex;
@@ -216,9 +219,8 @@ input
 	align-items: center;
 	justify-content: center;
 	background-color: #DEEBFF;
-	height: 46px;
+	height: 50px;
 	width: 50px;
-	border: 2px solid #DEEBFF;
 	border-radius: 30px;
 }
 
@@ -362,7 +364,7 @@ input
 {
 	background-color: white;
 	margin-bottom: 28px;
-	border: 5px solid white;
+	padding: 5px;
 	border-radius: 10px;
 }
 
@@ -410,7 +412,7 @@ input
 	display: flex;
 	margin-bottom: 30px;
 	background-color: white;
-	border: 5px solid white;
+	padding: 5px;
 	border-radius: 20px;
 }
 
@@ -632,6 +634,20 @@ input
 		width: 100%;
 	}
 
+	.modifPrix
+	{
+		margin-bottom: 0px;
+	}
+
+	.textEtoile
+	{
+		height: 105px;
+	}
+
+	.modifPrix2
+	{
+		margin-bottom: 0px;
+	}
 
 	
 }
@@ -748,6 +764,12 @@ input
 		font-size: 14px;
 	}
 
+	.modifPrix
+	{
+		font-size: 12px;
+	}
+
+
 
 	/*section3*/
 	#actimage
@@ -783,8 +805,6 @@ input
 	.imageG3, .imageG4, .imageG5, .imageG6, .imageG7
 	{
 		height: 135px;
-		max-width: 350p
-		min-width: 150p
 	}
 }
 
@@ -946,14 +966,14 @@ input
 		margin-right: 11px;
 	}
 
-	#textEtoile
+	.textEtoile
 	{
-		width: 100%;
+		height: 135px;
 	}
 
 	.prix2
 	{
-		font-size: 90%;
+		font-size: 100%;
 	}
 	.t2
 	{
@@ -982,7 +1002,7 @@ input
 		width: 130px;
 		border-top-left-radius: 20px;
 		border-bottom-left-radius: 20px;
-		border-top-right-radius: 20px;
+		border-top-right-radius: 0px;
 	}
 
 	.image
